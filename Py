@@ -1,0 +1,32 @@
+import random
+import time
+choices = ["run" , "bike" , "swim"]
+print( "Welcome to the missing word game\n" )
+def question():
+answer = input("\nWhich i s the missing word?\nrun\nbike\nswim\n")
+return answer
+questionOne = "An Ironman is a triathlon. It always starts with a 3.8km ___”
+print (questionOne)
+answer = question()
+if answer == choices[0]:
+print( "Good boy!")
+else:
+print("Take that like a good boy.")
+time.sleep (2)
+# T h i s i s q u e s t i o n 2
+questionTwo = "\nAfter, there will be a transition to prepare for the 180km ___ race
+print (questionTwo)
+answer = question()
+if answer == choices[1]:
+print( "Good boy!")
+else:
+print("Take that like a good boy.")
+time.sleep (2)
+questionThree = “\nAfter a grueling 180km, there will be another transition towards a 42km ___”
+print(questionThree)
+answer = question ( )
+if answer == choices[2]:
+print( "Good boy!”)
+else:
+always manages to land on its feet"
+print("Take that like a good boy.")
